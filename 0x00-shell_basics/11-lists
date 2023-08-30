@@ -1,14 +1,2 @@
 #!/bin/bash
 ls -la,cd ..,ls -la,cd /boot,ls -la
-Save this script to a file, for example, list_files.sh, and make it executable:
-
-bash
-Copy code
-chmod +x list_files.sh
-Running the script with ./list_files.sh will list all files, including hidden ones, in long format for the current directory, the parent directory of the working directory, and the /boot directory, in that order.
-
-
-
-
-
-
